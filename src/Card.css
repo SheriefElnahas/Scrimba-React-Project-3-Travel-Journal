@@ -1,0 +1,64 @@
+.card {
+    display:flex;
+    align-items: center;
+
+    color:#2B283A;
+
+    width:90%;
+    margin:3rem auto;
+    padding:0 2rem 2rem 2rem;
+    margin-bottom:3rem;
+}
+
+.card-img {
+    width:150px;
+    height:180px;
+    object-fit: cover;
+    display:block;
+    border-radius: 5px;
+}
+
+.card-content {
+    padding-left:19px;
+}
+.card-location-details {
+    display:flex;
+    align-items: center;
+
+}
+.card-country {
+    font-size:11px;
+    color:#2B283A;
+    letter-spacing:3px;
+    text-transform: uppercase;
+    font-weight:600;
+}
+
+.card .icon {
+    color:#F55A5A;
+}
+
+.view-country {
+    font-size:11px;
+    margin-left:15px;
+    color:#918E9B;
+    border-bottom:1px solid #918E9B;
+    text-decoration: none;
+}
+
+.card-location-name {
+    margin:0;
+
+}
+
+.card-date {
+    font-size:11px;
+    font-weight: 700;
+    padding-top:10px
+}
+
+.card-text {
+    font-size:11px;
+    line-height:1.5;
+    width:90%;
+}
