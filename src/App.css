@@ -10,8 +10,6 @@ body {
   width:700px;
   margin:1rem auto;
   background:#fff;
-
-
 }
 
 header {
@@ -23,11 +21,13 @@ header {
 }
 
 header p {
-
-
   font-size:30px;
   color:#fff;
   font-weight:700;
 
 }
 
+
+.app .card:last-child {
+  padding-bottom:2rem;
+}
